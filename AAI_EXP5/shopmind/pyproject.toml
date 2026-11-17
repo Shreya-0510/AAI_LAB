@@ -1,0 +1,12 @@
+[project]
+name = "shopmind"
+version = "1.0.0"
+description = "Multi-agent e-commerce shopping assistant (Experiment 5)"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.49",
+    "requests>=2.31",
+    "pandas>=2.0",
+    "plotly>=5.20",
+    "python-dotenv>=1.0",
+]
