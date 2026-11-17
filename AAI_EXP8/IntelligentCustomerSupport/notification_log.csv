@@ -1,0 +1,195 @@
+log_id,ticket_id,query_id,notification_type,recipient,subject,attempt,status,timestamp,error
+NLOG-0001,TKT-1C529C,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-1C529C,1,DELIVERED,2026-10-29T00:27:22+00:00,
+NLOG-0002,TKT-155029,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-155029,1,DELIVERED,2026-10-29T00:27:22+00:00,
+NLOG-0003,TKT-8C15C9,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-8C15C9,1,DELIVERED,2026-10-29T00:27:22+00:00,
+NLOG-0004,TKT-C91F2D,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-C91F2D,1,DELIVERED,2026-10-29T00:27:23+00:00,
+NLOG-0005,TKT-89769D,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-89769D,1,DELIVERED,2026-10-29T00:27:23+00:00,
+NLOG-0006,TKT-9D5400,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-9D5400,1,DELIVERED,2026-10-29T00:27:23+00:00,
+NLOG-0007,TKT-2A1D8F,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-2A1D8F,1,FAILED,2026-10-29T00:27:23+00:00,Simulated transient delivery failure
+NLOG-0008,TKT-2A1D8F,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-2A1D8F,2,DELIVERED,2026-10-29T00:27:23+00:00,
+NLOG-0009,TKT-C8357A,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-C8357A,1,DELIVERED,2026-10-29T00:27:23+00:00,
+NLOG-0010,TKT-9A4B75,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-9A4B75,1,DELIVERED,2026-10-29T00:27:24+00:00,
+NLOG-0011,TKT-75C2C0,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-75C2C0,1,FAILED,2026-10-29T00:27:24+00:00,Simulated transient delivery failure
+NLOG-0012,TKT-75C2C0,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-75C2C0,2,DELIVERED,2026-10-29T00:27:24+00:00,
+NLOG-0013,TKT-6836AC,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-6836AC,1,DELIVERED,2026-10-29T00:27:24+00:00,
+NLOG-0014,TKT-46F63D,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-46F63D,1,DELIVERED,2026-10-29T00:27:24+00:00,
+NLOG-0015,TKT-1DE962,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-1DE962,1,DELIVERED,2026-10-29T00:27:25+00:00,
+NLOG-0016,TKT-1A607E,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-1A607E,1,DELIVERED,2026-10-29T00:27:25+00:00,
+NLOG-0017,TKT-33A38B,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-33A38B,1,FAILED,2026-10-29T00:27:25+00:00,Simulated transient delivery failure
+NLOG-0018,TKT-33A38B,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-33A38B,2,DELIVERED,2026-10-29T00:27:25+00:00,
+NLOG-0019,TKT-293711,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-293711,1,DELIVERED,2026-10-29T00:27:25+00:00,
+NLOG-0020,TKT-46E946,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-46E946,1,DELIVERED,2026-10-29T00:27:26+00:00,
+NLOG-0021,TKT-2CCCF3,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-2CCCF3,1,FAILED,2026-10-29T00:27:26+00:00,Simulated transient delivery failure
+NLOG-0022,TKT-2CCCF3,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-2CCCF3,2,DELIVERED,2026-10-29T00:27:26+00:00,
+NLOG-0001,TKT-3E7B4A,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-3E7B4A,1,DELIVERED,2026-10-29T00:33:22+00:00,
+NLOG-0002,TKT-919FE6,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-919FE6,1,DELIVERED,2026-10-29T00:33:22+00:00,
+NLOG-0003,TKT-73DB72,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-73DB72,1,DELIVERED,2026-10-29T00:33:22+00:00,
+NLOG-0004,TKT-A8AE9B,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-A8AE9B,1,DELIVERED,2026-10-29T00:33:22+00:00,
+NLOG-0005,TKT-AB1472,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-AB1472,1,DELIVERED,2026-10-29T00:33:22+00:00,
+NLOG-0006,TKT-9918A7,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-9918A7,1,DELIVERED,2026-10-29T00:33:22+00:00,
+NLOG-0007,TKT-A17411,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-A17411,1,FAILED,2026-10-29T00:33:22+00:00,Simulated transient delivery failure
+NLOG-0008,TKT-A17411,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-A17411,2,DELIVERED,2026-10-29T00:33:23+00:00,
+NLOG-0009,TKT-211944,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-211944,1,DELIVERED,2026-10-29T00:33:23+00:00,
+NLOG-0010,TKT-26010B,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-26010B,1,DELIVERED,2026-10-29T00:33:23+00:00,
+NLOG-0011,TKT-F15A4A,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-F15A4A,1,FAILED,2026-10-29T00:33:23+00:00,Simulated transient delivery failure
+NLOG-0012,TKT-F15A4A,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-F15A4A,2,DELIVERED,2026-10-29T00:33:23+00:00,
+NLOG-0013,TKT-65C144,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-65C144,1,DELIVERED,2026-10-29T00:33:23+00:00,
+NLOG-0014,TKT-B4E065,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-B4E065,1,DELIVERED,2026-10-29T00:33:24+00:00,
+NLOG-0015,TKT-4082B7,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-4082B7,1,DELIVERED,2026-10-29T00:33:24+00:00,
+NLOG-0016,TKT-2D13DE,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-2D13DE,1,DELIVERED,2026-10-29T00:33:24+00:00,
+NLOG-0017,TKT-499DC6,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-499DC6,1,FAILED,2026-10-29T00:33:24+00:00,Simulated transient delivery failure
+NLOG-0018,TKT-499DC6,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-499DC6,2,DELIVERED,2026-10-29T00:33:24+00:00,
+NLOG-0019,TKT-17D9DE,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-17D9DE,1,DELIVERED,2026-10-29T00:33:24+00:00,
+NLOG-0020,TKT-FB0821,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-FB0821,1,DELIVERED,2026-10-29T00:33:24+00:00,
+NLOG-0021,TKT-2F1AF2,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-2F1AF2,1,FAILED,2026-10-29T00:33:25+00:00,Simulated transient delivery failure
+NLOG-0022,TKT-2F1AF2,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-2F1AF2,2,DELIVERED,2026-10-29T00:33:25+00:00,
+NLOG-0001,TKT-0A4027,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-0A4027,1,DELIVERED,2026-10-29T01:31:34+00:00,
+NLOG-0002,TKT-FBEE42,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-FBEE42,1,DELIVERED,2026-10-29T01:31:34+00:00,
+NLOG-0003,TKT-E52F2B,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-E52F2B,1,DELIVERED,2026-10-29T01:31:34+00:00,
+NLOG-0004,TKT-36D24B,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-36D24B,1,DELIVERED,2026-10-29T01:31:34+00:00,
+NLOG-0005,TKT-48D4F6,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-48D4F6,1,DELIVERED,2026-10-29T01:31:34+00:00,
+NLOG-0006,TKT-D388CD,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-D388CD,1,DELIVERED,2026-10-29T01:31:35+00:00,
+NLOG-0007,TKT-F1B5E1,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-F1B5E1,1,FAILED,2026-10-29T01:31:35+00:00,Simulated transient delivery failure
+NLOG-0008,TKT-F1B5E1,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-F1B5E1,2,DELIVERED,2026-10-29T01:31:35+00:00,
+NLOG-0009,TKT-9CF885,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-9CF885,1,DELIVERED,2026-10-29T01:31:35+00:00,
+NLOG-0010,TKT-215CE3,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-215CE3,1,DELIVERED,2026-10-29T01:31:35+00:00,
+NLOG-0011,TKT-0A29A2,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-0A29A2,1,FAILED,2026-10-29T01:31:35+00:00,Simulated transient delivery failure
+NLOG-0012,TKT-0A29A2,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-0A29A2,2,DELIVERED,2026-10-29T01:31:36+00:00,
+NLOG-0013,TKT-B5B4EB,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-B5B4EB,1,DELIVERED,2026-10-29T01:31:36+00:00,
+NLOG-0014,TKT-9DD374,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-9DD374,1,DELIVERED,2026-10-29T01:31:36+00:00,
+NLOG-0015,TKT-145F71,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-145F71,1,DELIVERED,2026-10-29T01:31:36+00:00,
+NLOG-0016,TKT-6704C1,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-6704C1,1,DELIVERED,2026-10-29T01:31:36+00:00,
+NLOG-0017,TKT-EFBA28,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-EFBA28,1,FAILED,2026-10-29T01:31:36+00:00,Simulated transient delivery failure
+NLOG-0018,TKT-EFBA28,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-EFBA28,2,DELIVERED,2026-10-29T01:31:37+00:00,
+NLOG-0019,TKT-2C7B5A,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-2C7B5A,1,DELIVERED,2026-10-29T01:31:37+00:00,
+NLOG-0020,TKT-4DF245,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-4DF245,1,DELIVERED,2026-10-29T01:31:37+00:00,
+NLOG-0021,TKT-6A0F9D,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-6A0F9D,1,FAILED,2026-10-29T01:31:37+00:00,Simulated transient delivery failure
+NLOG-0022,TKT-6A0F9D,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-6A0F9D,2,DELIVERED,2026-10-29T01:31:38+00:00,
+NLOG-0001,TKT-TEST1,Q020,ticket_created,test@example.com,[P3] Support Ticket Created – TKT-TEST1,1,FAILED,2026-10-29T01:52:19+00:00,Simulated transient delivery failure
+NLOG-0002,TKT-TEST1,Q020,ticket_created,test@example.com,[P3] Support Ticket Created – TKT-TEST1,2,DELIVERED,2026-10-29T01:52:19+00:00,
+NLOG-0003,TKT-TEST2,Q003,auto_resolved,cust003@example.com,Your Query Has Been Resolved – TKT-TEST2,1,DELIVERED,2026-10-29T01:52:19+00:00,
+NLOG-0004,TKT-FAIL,Q000,ticket_created,fail@example.com,[P1] Support Ticket Created – TKT-FAIL,1,FAILED,2026-10-29T01:52:19+00:00,Simulated transient delivery failure
+NLOG-0005,TKT-FAIL,Q000,ticket_created,fail@example.com,[P1] Support Ticket Created – TKT-FAIL,2,FAILED,2026-10-29T01:52:20+00:00,Simulated transient delivery failure
+NLOG-0006,TKT-FAIL,Q000,ticket_created,fail@example.com,[P1] Support Ticket Created – TKT-FAIL,3,FAILED,2026-10-29T01:52:20+00:00,Simulated transient delivery failure
+NLOG-0007,TKT-0BC357,E001,ticket_created,cust-e01@customer.example.com,[P2] Support Ticket Created – TKT-0BC357,1,DELIVERED,2026-10-29T01:52:20+00:00,
+NLOG-0008,TKT-DB0C45,E002,ticket_created,cust-e02@customer.example.com,[P3] Support Ticket Created – TKT-DB0C45,1,DELIVERED,2026-10-29T01:52:20+00:00,
+NLOG-0009,TKT-380C97,E003,escalation,cust-e03@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-380C97,1,DELIVERED,2026-10-29T01:52:20+00:00,
+NLOG-0001,TKT-TEST1,Q020,ticket_created,test@example.com,[P3] Support Ticket Created – TKT-TEST1,1,FAILED,2026-10-29T01:54:09+00:00,Simulated transient delivery failure
+NLOG-0002,TKT-TEST1,Q020,ticket_created,test@example.com,[P3] Support Ticket Created – TKT-TEST1,2,DELIVERED,2026-10-29T01:54:09+00:00,
+NLOG-0003,TKT-TEST2,Q003,auto_resolved,cust003@example.com,Your Query Has Been Resolved – TKT-TEST2,1,DELIVERED,2026-10-29T01:54:09+00:00,
+NLOG-0004,TKT-FAIL,Q000,ticket_created,fail@example.com,[P1] Support Ticket Created – TKT-FAIL,1,FAILED,2026-10-29T01:54:09+00:00,Simulated transient delivery failure
+NLOG-0005,TKT-FAIL,Q000,ticket_created,fail@example.com,[P1] Support Ticket Created – TKT-FAIL,2,FAILED,2026-10-29T01:54:09+00:00,Simulated transient delivery failure
+NLOG-0006,TKT-FAIL,Q000,ticket_created,fail@example.com,[P1] Support Ticket Created – TKT-FAIL,3,FAILED,2026-10-29T01:54:09+00:00,Simulated transient delivery failure
+NLOG-0007,TKT-F9A52A,E001,ticket_created,cust-e01@customer.example.com,[P2] Support Ticket Created – TKT-F9A52A,1,DELIVERED,2026-10-29T01:54:09+00:00,
+NLOG-0008,TKT-852888,E002,ticket_created,cust-e02@customer.example.com,[P3] Support Ticket Created – TKT-852888,1,DELIVERED,2026-10-29T01:54:09+00:00,
+NLOG-0009,TKT-AA6BE7,E003,escalation,cust-e03@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-AA6BE7,1,DELIVERED,2026-10-29T01:54:10+00:00,
+NLOG-0001,TKT-003AD5,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-003AD5,1,DELIVERED,2026-11-06T07:23:35+00:00,
+NLOG-0002,TKT-2EC028,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-2EC028,1,DELIVERED,2026-11-06T07:23:35+00:00,
+NLOG-0003,TKT-26DA3C,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-26DA3C,1,DELIVERED,2026-11-06T07:23:35+00:00,
+NLOG-0004,TKT-41BA36,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-41BA36,1,DELIVERED,2026-11-06T07:23:35+00:00,
+NLOG-0005,TKT-154A2E,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-154A2E,1,DELIVERED,2026-11-06T07:23:35+00:00,
+NLOG-0006,TKT-5EE316,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-5EE316,1,DELIVERED,2026-11-06T07:23:35+00:00,
+NLOG-0007,TKT-F77B90,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-F77B90,1,FAILED,2026-11-06T07:23:35+00:00,Simulated transient delivery failure
+NLOG-0008,TKT-F77B90,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-F77B90,2,DELIVERED,2026-11-06T07:23:36+00:00,
+NLOG-0009,TKT-4F3D83,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-4F3D83,1,DELIVERED,2026-11-06T07:23:36+00:00,
+NLOG-0010,TKT-CC7A93,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-CC7A93,1,DELIVERED,2026-11-06T07:23:36+00:00,
+NLOG-0011,TKT-788818,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-788818,1,FAILED,2026-11-06T07:23:36+00:00,Simulated transient delivery failure
+NLOG-0012,TKT-788818,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-788818,2,DELIVERED,2026-11-06T07:23:37+00:00,
+NLOG-0013,TKT-DDDED3,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-DDDED3,1,DELIVERED,2026-11-06T07:23:39+00:00,
+NLOG-0014,TKT-A45AC3,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-A45AC3,1,DELIVERED,2026-11-06T07:23:41+00:00,
+NLOG-0015,TKT-DF84F4,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-DF84F4,1,DELIVERED,2026-11-06T07:23:42+00:00,
+NLOG-0016,TKT-619DB5,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-619DB5,1,DELIVERED,2026-11-06T07:23:42+00:00,
+NLOG-0017,TKT-D33DE5,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-D33DE5,1,FAILED,2026-11-06T07:23:43+00:00,Simulated transient delivery failure
+NLOG-0018,TKT-D33DE5,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-D33DE5,2,DELIVERED,2026-11-06T07:23:43+00:00,
+NLOG-0019,TKT-1C3DAF,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-1C3DAF,1,DELIVERED,2026-11-06T07:23:44+00:00,
+NLOG-0020,TKT-281194,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-281194,1,DELIVERED,2026-11-06T07:23:44+00:00,
+NLOG-0021,TKT-2A0DB4,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-2A0DB4,1,FAILED,2026-11-06T07:23:44+00:00,Simulated transient delivery failure
+NLOG-0022,TKT-2A0DB4,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-2A0DB4,2,DELIVERED,2026-11-06T07:23:45+00:00,
+NLOG-0023,TKT-D66329,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-D66329,1,DELIVERED,2026-11-06T07:23:52+00:00,
+NLOG-0024,TKT-2352C0,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-2352C0,1,DELIVERED,2026-11-06T07:23:52+00:00,
+NLOG-0025,TKT-F9EC1D,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-F9EC1D,1,DELIVERED,2026-11-06T07:23:52+00:00,
+NLOG-0026,TKT-F9DF19,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-F9DF19,1,DELIVERED,2026-11-06T07:23:52+00:00,
+NLOG-0027,TKT-F91C1B,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-F91C1B,1,DELIVERED,2026-11-06T07:23:52+00:00,
+NLOG-0028,TKT-7D18CA,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-7D18CA,1,DELIVERED,2026-11-06T07:23:52+00:00,
+NLOG-0029,TKT-5F255F,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-5F255F,1,FAILED,2026-11-06T07:23:52+00:00,Simulated transient delivery failure
+NLOG-0030,TKT-5F255F,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-5F255F,2,DELIVERED,2026-11-06T07:23:53+00:00,
+NLOG-0031,TKT-28AFDE,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-28AFDE,1,DELIVERED,2026-11-06T07:23:53+00:00,
+NLOG-0032,TKT-A8599B,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-A8599B,1,DELIVERED,2026-11-06T07:23:53+00:00,
+NLOG-0033,TKT-7CE7F4,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-7CE7F4,1,FAILED,2026-11-06T07:23:53+00:00,Simulated transient delivery failure
+NLOG-0034,TKT-7CE7F4,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-7CE7F4,2,DELIVERED,2026-11-06T07:23:53+00:00,
+NLOG-0035,TKT-7DBDC8,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-7DBDC8,1,DELIVERED,2026-11-06T07:23:54+00:00,
+NLOG-0036,TKT-3EE35D,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-3EE35D,1,DELIVERED,2026-11-06T07:23:54+00:00,
+NLOG-0037,TKT-29E852,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-29E852,1,DELIVERED,2026-11-06T07:23:54+00:00,
+NLOG-0038,TKT-6359C3,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-6359C3,1,DELIVERED,2026-11-06T07:23:54+00:00,
+NLOG-0039,TKT-EC72EB,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-EC72EB,1,FAILED,2026-11-06T07:23:54+00:00,Simulated transient delivery failure
+NLOG-0040,TKT-EC72EB,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-EC72EB,2,DELIVERED,2026-11-06T07:23:54+00:00,
+NLOG-0041,TKT-9B8323,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-9B8323,1,DELIVERED,2026-11-06T07:23:55+00:00,
+NLOG-0042,TKT-F3F7F7,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-F3F7F7,1,DELIVERED,2026-11-06T07:23:55+00:00,
+NLOG-0043,TKT-BE049F,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-BE049F,1,FAILED,2026-11-06T07:23:55+00:00,Simulated transient delivery failure
+NLOG-0044,TKT-BE049F,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-BE049F,2,DELIVERED,2026-11-06T07:23:55+00:00,
+NLOG-0001,TKT-4D9E70,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-4D9E70,1,DELIVERED,2026-11-06T07:25:50+00:00,
+NLOG-0002,TKT-3F4250,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-3F4250,1,DELIVERED,2026-11-06T07:25:51+00:00,
+NLOG-0003,TKT-8D684C,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-8D684C,1,DELIVERED,2026-11-06T07:25:51+00:00,
+NLOG-0004,TKT-B5CD08,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-B5CD08,1,DELIVERED,2026-11-06T07:25:51+00:00,
+NLOG-0005,TKT-3F66D9,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-3F66D9,1,DELIVERED,2026-11-06T07:25:51+00:00,
+NLOG-0006,TKT-E775F8,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-E775F8,1,DELIVERED,2026-11-06T07:25:51+00:00,
+NLOG-0007,TKT-3BFAF4,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-3BFAF4,1,FAILED,2026-11-06T07:25:51+00:00,Simulated transient delivery failure
+NLOG-0008,TKT-3BFAF4,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-3BFAF4,2,DELIVERED,2026-11-06T07:25:52+00:00,
+NLOG-0009,TKT-670546,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-670546,1,DELIVERED,2026-11-06T07:25:52+00:00,
+NLOG-0010,TKT-A083B1,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-A083B1,1,DELIVERED,2026-11-06T07:25:52+00:00,
+NLOG-0011,TKT-A54196,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-A54196,1,FAILED,2026-11-06T07:25:52+00:00,Simulated transient delivery failure
+NLOG-0012,TKT-A54196,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-A54196,2,DELIVERED,2026-11-06T07:25:53+00:00,
+NLOG-0013,TKT-545DBE,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-545DBE,1,DELIVERED,2026-11-06T07:25:53+00:00,
+NLOG-0014,TKT-67C202,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-67C202,1,DELIVERED,2026-11-06T07:25:53+00:00,
+NLOG-0015,TKT-6AF5E7,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-6AF5E7,1,DELIVERED,2026-11-06T07:25:53+00:00,
+NLOG-0016,TKT-51B70A,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-51B70A,1,DELIVERED,2026-11-06T07:25:53+00:00,
+NLOG-0017,TKT-EEAD57,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-EEAD57,1,FAILED,2026-11-06T07:25:53+00:00,Simulated transient delivery failure
+NLOG-0018,TKT-EEAD57,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-EEAD57,2,DELIVERED,2026-11-06T07:25:54+00:00,
+NLOG-0019,TKT-3E0044,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-3E0044,1,DELIVERED,2026-11-06T07:25:54+00:00,
+NLOG-0020,TKT-31BFAD,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-31BFAD,1,DELIVERED,2026-11-06T07:25:54+00:00,
+NLOG-0021,TKT-BD5B6F,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-BD5B6F,1,FAILED,2026-11-06T07:25:54+00:00,Simulated transient delivery failure
+NLOG-0022,TKT-BD5B6F,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-BD5B6F,2,DELIVERED,2026-11-06T07:25:55+00:00,
+NLOG-0023,TKT-31E38D,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-31E38D,1,DELIVERED,2026-11-06T07:42:55+00:00,
+NLOG-0024,TKT-99FACF,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-99FACF,1,DELIVERED,2026-11-06T07:42:55+00:00,
+NLOG-0025,TKT-D580D8,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-D580D8,1,DELIVERED,2026-11-06T07:42:55+00:00,
+NLOG-0026,TKT-BC400C,Q001,ticket_created,cust-1001@customer.example.com,[P2] Support Ticket Created – TKT-BC400C,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0027,TKT-22425B,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-22425B,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0028,TKT-F6A160,Q002,ticket_created,cust-1002@customer.example.com,[P3] Support Ticket Created – TKT-F6A160,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0029,TKT-08D8A2,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-08D8A2,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0030,TKT-A10AD9,Q003,ticket_created,cust-1003@customer.example.com,[P3] Support Ticket Created – TKT-A10AD9,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0031,TKT-4C6806,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-4C6806,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0032,TKT-E4E17D,Q004,ticket_created,cust-1004@customer.example.com,[P4] Support Ticket Created – TKT-E4E17D,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0033,TKT-E20D8D,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-E20D8D,1,FAILED,2026-11-06T07:42:56+00:00,Simulated transient delivery failure
+NLOG-0034,TKT-EF97B1,Q005,ticket_created,cust-1005@customer.example.com,[P3] Support Ticket Created – TKT-EF97B1,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0035,TKT-00AD3D,Q006,escalation,cust-1006@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-00AD3D,1,DELIVERED,2026-11-06T07:42:56+00:00,
+NLOG-0036,TKT-C68493,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-C68493,1,FAILED,2026-11-06T07:42:56+00:00,Simulated transient delivery failure
+NLOG-0037,TKT-E20D8D,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-E20D8D,2,DELIVERED,2026-11-06T07:42:57+00:00,
+NLOG-0038,TKT-4D63C9,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-4D63C9,1,DELIVERED,2026-11-06T07:42:57+00:00,
+NLOG-0039,TKT-C68493,Q007,escalation,cust-1007@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-C68493,2,DELIVERED,2026-11-06T07:42:57+00:00,
+NLOG-0040,TKT-5B1FC1,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-5B1FC1,1,DELIVERED,2026-11-06T07:42:57+00:00,
+NLOG-0041,TKT-B4A557,Q008,ticket_created,cust-1008@customer.example.com,[P3] Support Ticket Created – TKT-B4A557,1,DELIVERED,2026-11-06T07:42:57+00:00,
+NLOG-0042,TKT-32630F,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-32630F,1,FAILED,2026-11-06T07:42:57+00:00,Simulated transient delivery failure
+NLOG-0043,TKT-A65352,Q009,ticket_created,cust-1009@customer.example.com,[P3] Support Ticket Created – TKT-A65352,1,DELIVERED,2026-11-06T07:42:57+00:00,
+NLOG-0044,TKT-9129FB,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-9129FB,1,FAILED,2026-11-06T07:42:57+00:00,Simulated transient delivery failure
+NLOG-0045,TKT-32630F,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-32630F,2,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0046,TKT-9129FB,Q010,ticket_created,cust-1010@customer.example.com,[P3] Support Ticket Created – TKT-9129FB,2,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0047,TKT-13EF5C,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-13EF5C,1,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0048,TKT-F53769,Q011,ticket_created,cust-1011@customer.example.com,[P4] Support Ticket Created – TKT-F53769,1,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0049,TKT-BA3B34,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-BA3B34,1,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0050,TKT-C69083,Q012,ticket_created,cust-1012@customer.example.com,[P2] Support Ticket Created – TKT-C69083,1,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0051,TKT-63015E,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-63015E,1,DELIVERED,2026-11-06T07:42:58+00:00,
+NLOG-0052,TKT-77304B,Q013,escalation,cust-1013@customer.example.com,[ACTION REQUIRED] Ticket Escalated – TKT-77304B,1,DELIVERED,2026-11-06T07:42:59+00:00,
+NLOG-0053,TKT-E7C325,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-E7C325,1,DELIVERED,2026-11-06T07:42:59+00:00,
+NLOG-0054,TKT-CF261B,Q014,ticket_created,cust-1014@customer.example.com,[P3] Support Ticket Created – TKT-CF261B,1,DELIVERED,2026-11-06T07:42:59+00:00,
+NLOG-0055,TKT-615571,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-615571,1,FAILED,2026-11-06T07:42:59+00:00,Simulated transient delivery failure
+NLOG-0056,TKT-FC6286,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-FC6286,1,FAILED,2026-11-06T07:42:59+00:00,Simulated transient delivery failure
+NLOG-0057,TKT-615571,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-615571,2,DELIVERED,2026-11-06T07:42:59+00:00,
+NLOG-0058,TKT-FC6286,Q017,ticket_created,cust-1017@customer.example.com,[P3] Support Ticket Created – TKT-FC6286,2,DELIVERED,2026-11-06T07:43:00+00:00,
+NLOG-0059,TKT-116D99,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-116D99,1,DELIVERED,2026-11-06T07:43:00+00:00,
+NLOG-0060,TKT-A363B4,Q018,ticket_created,cust-1018@customer.example.com,[P2] Support Ticket Created – TKT-A363B4,1,DELIVERED,2026-11-06T07:43:00+00:00,
+NLOG-0061,TKT-D0928E,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-D0928E,1,DELIVERED,2026-11-06T07:43:00+00:00,
+NLOG-0062,TKT-6FD0D9,Q019,ticket_created,cust-1019@customer.example.com,[P3] Support Ticket Created – TKT-6FD0D9,1,DELIVERED,2026-11-06T07:43:00+00:00,
+NLOG-0063,TKT-D03202,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-D03202,1,FAILED,2026-11-06T07:43:00+00:00,Simulated transient delivery failure
+NLOG-0064,TKT-ABEBEC,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-ABEBEC,1,FAILED,2026-11-06T07:43:00+00:00,Simulated transient delivery failure
+NLOG-0065,TKT-D03202,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-D03202,2,DELIVERED,2026-11-06T07:43:01+00:00,
+NLOG-0066,TKT-ABEBEC,Q020,ticket_created,cust-1020@customer.example.com,[P3] Support Ticket Created – TKT-ABEBEC,2,DELIVERED,2026-11-06T07:43:01+00:00,

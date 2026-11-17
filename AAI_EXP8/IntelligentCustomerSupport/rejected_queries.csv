@@ -1,0 +1,3 @@
+query_id,customer_id,query_text,created_at,errors
+Q015,CUST-1015,,2024-10-14 12:45:00,Missing required field; Empty query_text
+Q001,CUST-1016,I want to upgrade my subscription to the enterprise plan.,2024-10-14 13:00:00,Duplicate query_id: Q001

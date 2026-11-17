@@ -1,0 +1,33 @@
+{
+  "sla_hours": {
+    "P1": 1,
+    "P2": 4,
+    "P3": 24,
+    "P4": 72
+  },
+  "confidence_thresholds": {
+    "auto_resolve_min": 0.70,
+    "escalate_max": 0.40
+  },
+  "auto_resolve_intents": [
+    "General Information",
+    "Feature Request"
+  ],
+  "always_escalate_intents": [
+    "Unresolved Issue"
+  ],
+  "always_escalate_priorities": [
+    "P1"
+  ],
+  "max_notification_retries": 3,
+  "notification_retry_delay_seconds": 2,
+  "teams": {
+    "Login / Access": "Identity & Access Team",
+    "Billing": "Billing & Accounts Team",
+    "Technical Error": "Platform Engineering Team",
+    "Feature Request": "Product Feedback Queue",
+    "General Information": "Support Bot (Auto)",
+    "Unresolved Issue": "Senior Support Engineers"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,22 @@
+{
+  "rule_version": "1.0",
+  "role": "Junior Software Developer",
+  "criteria": {
+    "skills_score": {
+      "label": "Role-related skills",
+      "weight": 40
+    },
+    "experience_score": {
+      "label": "Relevant experience",
+      "weight": 30
+    },
+    "assessment_score": {
+      "label": "Technical assessment",
+      "weight": 30
+    }
+  },
+  "thresholds": {
+    "shortlist_review": 75,
+    "manual_review": 50
+  }
+}

@@ -1,0 +1,23 @@
+[project]
+name = "recruitment-workflow"
+version = "1.0.0"
+description = "Human-controlled recruitment workflow with explainable scoring and evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit>=1.39",
+    "pandas>=2.2",
+    "plotly>=5.24",
+    "datasets>=5.1.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.3", "ruff>=0.7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

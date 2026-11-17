@@ -1,0 +1,21 @@
+query_id,customer_id,query_text,created_at,channel
+Q001,CUST-1001,I cannot log in to my account after the password reset.,2024-10-14 09:15:00,email
+Q002,CUST-1002,Where is my invoice for October? I have not received it yet.,2024-10-14 09:30:00,portal
+Q003,CUST-1003,The export feature returns a server error every time I try to download data.,2024-10-14 09:45:00,email
+Q004,CUST-1004,Please add dark mode to the dashboard.,2024-10-14 10:00:00,portal
+Q005,CUST-1005,What features are included in the basic plan?,2024-10-14 10:15:00,chat
+Q006,CUST-1006,The steps you suggested did not work. My account is still locked.,2024-10-14 10:30:00,email
+Q007,CUST-1007,The application is down for all users in our organisation. We have a service outage.,2024-10-14 10:45:00,phone
+Q008,CUST-1008,I need to cancel my subscription and get a refund for this month.,2024-10-14 11:00:00,portal
+Q009,CUST-1009,How do I add additional team members to my workspace?,2024-10-14 11:15:00,chat
+Q010,CUST-1010,I cannot access the API. The authentication token keeps getting rejected.,2024-10-14 11:30:00,email
+Q011,CUST-1011,Can you integrate with Slack? Our team relies heavily on it.,2024-10-14 11:45:00,portal
+Q012,CUST-1012,My payment failed but I was still charged. Please check my billing immediately.,2024-10-14 12:00:00,email
+Q013,CUST-1013,I think there has been a data breach. Someone accessed my account without my permission.,2024-10-14 12:15:00,phone
+Q014,CUST-1014,The dashboard charts are not loading. It shows a blank screen.,2024-10-14 12:30:00,portal
+Q015,CUST-1015,,2024-10-14 12:45:00,email
+Q001,CUST-1016,I want to upgrade my subscription to the enterprise plan.,2024-10-14 13:00:00,portal
+Q017,CUST-1017,It is not working.,2024-10-14 13:15:00,chat
+Q018,CUST-1018,My invoice is incorrect. I was charged twice for the same billing cycle and need an urgent resolution.,2024-10-14 13:30:00,email
+Q019,CUST-1019,I need information about compliance certifications like SOC2 and ISO 27001 for my procurement team.,2024-10-14 13:45:00,portal
+Q020,CUST-1020,I forgot my password. How do I reset it?,2024-10-14 14:00:00,chat

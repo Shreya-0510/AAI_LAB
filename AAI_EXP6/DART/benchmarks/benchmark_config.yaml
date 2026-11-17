@@ -1,0 +1,18 @@
+version: 1
+notes:
+  - Use fixed commit hashes and repeat each strategy at least 3 times where practical.
+  - Add controlled fault scenarios and expected relevant test files before computing recall or detection rate.
+  - Never label the demo repository as a real-world evaluation dataset.
+strategies:
+  - full_suite
+  - llm_only
+  - hybrid
+metrics:
+  - selected_test_count
+  - test_reduction_pct
+  - selection_precision
+  - selection_recall
+  - regression_detection_rate
+  - duration_seconds
+  - end_to_end_seconds
+  - workflow_success

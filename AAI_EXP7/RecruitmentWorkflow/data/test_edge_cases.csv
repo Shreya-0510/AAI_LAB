@@ -1,0 +1,6 @@
+candidate_id,candidate_name,email,skills_score,experience_score,assessment_score,application_role
+T001,Boundary 75,t001@example.com,75,75,75,Junior Software Developer
+T002,Boundary 50,t002@example.com,50,50,50,Junior Software Developer
+T003,Missing Email,,80,80,80,Junior Software Developer
+T004,Invalid Score,t004@example.com,120,40,50,Junior Software Developer
+T001,Duplicate ID,dupe@example.com,60,60,60,Junior Software Developer
